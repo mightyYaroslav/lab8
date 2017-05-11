@@ -1,5 +1,5 @@
 # lab8
-[![Build Status](https://travis-ci.org/mightyYaroslav/lab8.svg?branch=master)](https://travis-ci.org/mightyYaroslav/lab8)
+[![Build Status](https://travis-ci.org/mightyYaroslav/lab8.svg?branch=master)](https://travis-ci.org/mightyYaroslav/lab8).
 TCP-сервер, що слухає запити на підключення TCP клієнтів і взаємодіє з ними за допомогою протоколу HTTP. Сервер обробляяє лише HTTP GET запити і повертає HTTP-відповіді. Інтерфейс сервера дозволяє звертатися до нього по HTTP-шляхах:
 * ```/``` - відправити у відповідь JSON-об'єкт із інформацією про сервер:
 ```
