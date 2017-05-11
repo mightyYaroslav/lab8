@@ -1,0 +1,14 @@
+sudo: required
+language: c
+os:
+  - linux
+compiler: 
+  - gcc
+
+before_install:
+  - sudo apt-get install libjansson
+  - sudo apt-get install libevent
+
+script: 
+  - cmake . 
+  - make .
