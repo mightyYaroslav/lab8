@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/include 
+C_INCLUDES = -I/Users/Yaroslav/Desktop/lab8/include 
 

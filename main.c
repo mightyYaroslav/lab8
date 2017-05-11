@@ -54,7 +54,10 @@ void generic_handler(struct evhttp_request *req, void *arg) {
 
         } else if (comp_count > 1 && is_number(components[1])) {
             List * filtered = filterHeroes(heroes, "id", components[1]);
-            json_str = json_dumps(List_toJson(filtered, elToJson), JSON_INDENT(2));
+            if(filtered == NULL)
+                success = 0;
+            else
+                json_str = json_dumps(List_toJson(filtered, elToJson), JSON_INDENT(2));
             List_free(filtered, freeSimpleList);
 
         } else {

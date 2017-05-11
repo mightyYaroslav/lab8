@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8
+CMAKE_SOURCE_DIR = /Users/Yaroslav/Desktop/lab8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Yaroslav/Desktop/lab8/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab8.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lab8.dir/flags.make
 
 CMakeFiles/lab8.dir/main.c.o: CMakeFiles/lab8.dir/flags.make
 CMakeFiles/lab8.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab8.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/main.c.o   -c /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab8.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/main.c.o   -c /Users/Yaroslav/Desktop/lab8/main.c
 
 CMakeFiles/lab8.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab8.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/main.c > CMakeFiles/lab8.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Desktop/lab8/main.c > CMakeFiles/lab8.dir/main.c.i
 
 CMakeFiles/lab8.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab8.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/main.c -o CMakeFiles/lab8.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Desktop/lab8/main.c -o CMakeFiles/lab8.dir/main.c.s
 
 CMakeFiles/lab8.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/lab8.dir/main.c.o.provides.build: CMakeFiles/lab8.dir/main.c.o
 
 CMakeFiles/lab8.dir/src/file.c.o: CMakeFiles/lab8.dir/flags.make
 CMakeFiles/lab8.dir/src/file.c.o: ../src/file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab8.dir/src/file.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/file.c.o   -c /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab8.dir/src/file.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/file.c.o   -c /Users/Yaroslav/Desktop/lab8/src/file.c
 
 CMakeFiles/lab8.dir/src/file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab8.dir/src/file.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/file.c > CMakeFiles/lab8.dir/src/file.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Desktop/lab8/src/file.c > CMakeFiles/lab8.dir/src/file.c.i
 
 CMakeFiles/lab8.dir/src/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab8.dir/src/file.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/file.c -o CMakeFiles/lab8.dir/src/file.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Desktop/lab8/src/file.c -o CMakeFiles/lab8.dir/src/file.c.s
 
 CMakeFiles/lab8.dir/src/file.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/lab8.dir/src/file.c.o.provides.build: CMakeFiles/lab8.dir/src/file.c.
 
 CMakeFiles/lab8.dir/src/hero.c.o: CMakeFiles/lab8.dir/flags.make
 CMakeFiles/lab8.dir/src/hero.c.o: ../src/hero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab8.dir/src/hero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/hero.c.o   -c /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/hero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab8.dir/src/hero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/hero.c.o   -c /Users/Yaroslav/Desktop/lab8/src/hero.c
 
 CMakeFiles/lab8.dir/src/hero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab8.dir/src/hero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/hero.c > CMakeFiles/lab8.dir/src/hero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Desktop/lab8/src/hero.c > CMakeFiles/lab8.dir/src/hero.c.i
 
 CMakeFiles/lab8.dir/src/hero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab8.dir/src/hero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/hero.c -o CMakeFiles/lab8.dir/src/hero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Desktop/lab8/src/hero.c -o CMakeFiles/lab8.dir/src/hero.c.s
 
 CMakeFiles/lab8.dir/src/hero.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/lab8.dir/src/hero.c.o.provides.build: CMakeFiles/lab8.dir/src/hero.c.
 
 CMakeFiles/lab8.dir/src/list.c.o: CMakeFiles/lab8.dir/flags.make
 CMakeFiles/lab8.dir/src/list.c.o: ../src/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lab8.dir/src/list.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/list.c.o   -c /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lab8.dir/src/list.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/list.c.o   -c /Users/Yaroslav/Desktop/lab8/src/list.c
 
 CMakeFiles/lab8.dir/src/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab8.dir/src/list.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/list.c > CMakeFiles/lab8.dir/src/list.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Desktop/lab8/src/list.c > CMakeFiles/lab8.dir/src/list.c.i
 
 CMakeFiles/lab8.dir/src/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab8.dir/src/list.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/list.c -o CMakeFiles/lab8.dir/src/list.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Desktop/lab8/src/list.c -o CMakeFiles/lab8.dir/src/list.c.s
 
 CMakeFiles/lab8.dir/src/list.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/lab8.dir/src/list.c.o.provides.build: CMakeFiles/lab8.dir/src/list.c.
 
 CMakeFiles/lab8.dir/src/server_info.c.o: CMakeFiles/lab8.dir/flags.make
 CMakeFiles/lab8.dir/src/server_info.c.o: ../src/server_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lab8.dir/src/server_info.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/server_info.c.o   -c /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/server_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lab8.dir/src/server_info.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/server_info.c.o   -c /Users/Yaroslav/Desktop/lab8/src/server_info.c
 
 CMakeFiles/lab8.dir/src/server_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab8.dir/src/server_info.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/server_info.c > CMakeFiles/lab8.dir/src/server_info.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Desktop/lab8/src/server_info.c > CMakeFiles/lab8.dir/src/server_info.c.i
 
 CMakeFiles/lab8.dir/src/server_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab8.dir/src/server_info.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/server_info.c -o CMakeFiles/lab8.dir/src/server_info.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Desktop/lab8/src/server_info.c -o CMakeFiles/lab8.dir/src/server_info.c.s
 
 CMakeFiles/lab8.dir/src/server_info.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/lab8.dir/src/server_info.c.o.provides.build: CMakeFiles/lab8.dir/src/
 
 CMakeFiles/lab8.dir/src/util.c.o: CMakeFiles/lab8.dir/flags.make
 CMakeFiles/lab8.dir/src/util.c.o: ../src/util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lab8.dir/src/util.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/util.c.o   -c /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lab8.dir/src/util.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab8.dir/src/util.c.o   -c /Users/Yaroslav/Desktop/lab8/src/util.c
 
 CMakeFiles/lab8.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab8.dir/src/util.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/util.c > CMakeFiles/lab8.dir/src/util.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Yaroslav/Desktop/lab8/src/util.c > CMakeFiles/lab8.dir/src/util.c.i
 
 CMakeFiles/lab8.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab8.dir/src/util.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/src/util.c -o CMakeFiles/lab8.dir/src/util.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Yaroslav/Desktop/lab8/src/util.c -o CMakeFiles/lab8.dir/src/util.c.s
 
 CMakeFiles/lab8.dir/src/util.c.o.requires:
 
@@ -221,7 +221,7 @@ lab8: CMakeFiles/lab8.dir/src/server_info.c.o
 lab8: CMakeFiles/lab8.dir/src/util.c.o
 lab8: CMakeFiles/lab8.dir/build.make
 lab8: CMakeFiles/lab8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable lab8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable lab8"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/lab8.dir/clean:
 .PHONY : CMakeFiles/lab8.dir/clean
 
 CMakeFiles/lab8.dir/depend:
-	cd /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8 /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8 /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug /Users/Yaroslav/Documents/KPI/progbase2/labs/lab8/cmake-build-debug/CMakeFiles/lab8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Yaroslav/Desktop/lab8/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Yaroslav/Desktop/lab8 /Users/Yaroslav/Desktop/lab8 /Users/Yaroslav/Desktop/lab8/cmake-build-debug /Users/Yaroslav/Desktop/lab8/cmake-build-debug /Users/Yaroslav/Desktop/lab8/cmake-build-debug/CMakeFiles/lab8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab8.dir/depend
 
